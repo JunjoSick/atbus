@@ -1,0 +1,49 @@
+
+/* Stili comuni */
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Barra superiore con logo e navigazione */
+.top-bar {
+    background-color: #003366; /* Colore scuro per la barra superiore */
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    height: 50px; /* Altezza del logo */
+    margin-right: 20px;
+}
+
+.top-bar-navigation a {
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Banner principale */
+.header-banner .banner {
+    width: 100%;
+    height: auto;
+}
+
+/* Sezione di contenuto */
+.content-section {
+    padding: 20px;
+}
+
+/* Stile per il footer */
+.site-footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
